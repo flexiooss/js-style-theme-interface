@@ -21,10 +21,23 @@ export class Form extends Style {
   /**
    * @return {(StyleRules,string)}
    */
+  get column() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {(StyleRules,string)}
+   */
   get rowError() {
     throw new Error('should be override')
   }
 
+  /**
+   * @return {(StyleRules,string)}
+   */
+  get labelColumn() {
+    throw new Error('should be override')
+  }
   /**
    * @return {(StyleRules,string)}
    */
@@ -42,6 +55,13 @@ export class Form extends Style {
   /**
    * @return {(StyleRules,string)}
    */
+  get inputColumn() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {(StyleRules,string)}
+   */
   get inputContainer() {
     throw new Error('should be override')
   }
@@ -49,7 +69,28 @@ export class Form extends Style {
   /**
    * @return {(StyleRules,string)}
    */
+  get inputContainerError() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {(StyleRules,string)}
+   */
   get input() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {(StyleRules,string)}
+   */
+  get inputError() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {(StyleRules,string)}
+   */
+  get inputText() {
     throw new Error('should be override')
   }
 
