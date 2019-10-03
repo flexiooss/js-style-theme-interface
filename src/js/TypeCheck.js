@@ -1,7 +1,7 @@
-import {Form} from './Form'
-import {Border} from './Border'
-import {Color} from './Color'
-import {FontSize} from './FontSize'
+import {Form} from './style/Form'
+import {Border} from './style/Border'
+import {Color} from './style/Color'
+import {FontSize} from './style/FontSize'
 
 export class TypeCheck {
   /**
