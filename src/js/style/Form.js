@@ -21,6 +21,13 @@ export class Form extends Style {
   /**
    * @return {(StyleRules,string)}
    */
+  get rowActive() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {(StyleRules,string)}
+   */
   get column() {
     throw new Error('should be override')
   }
