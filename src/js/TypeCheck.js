@@ -3,6 +3,7 @@ import {Border} from './style/Border'
 import {Color} from './style/Color'
 import {FontSize} from './style/FontSize'
 import {Theme} from './Theme'
+import {Button} from './style/Button'
 
 export class TypeCheck {
   /**
