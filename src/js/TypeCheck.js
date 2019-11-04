@@ -2,6 +2,7 @@ import {Form} from './style/Form'
 import {Border} from './style/Border'
 import {Color} from './style/Color'
 import {FontSize} from './style/FontSize'
+import {Theme} from './Theme'
 
 export class TypeCheck {
   /**
@@ -47,5 +48,14 @@ export class TypeCheck {
    */
   static isForm(instance) {
     return instance instanceof Form
+  }
+
+  /**
+   *
+   * @param {*} instance
+   * @return {boolean}
+   */
+  static isTheme(instance) {
+    return instance instanceof Theme
   }
 }

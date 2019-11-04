@@ -13,3 +13,4 @@ export {Form} from './src/js/style/Form'
 export {Button} from './src/js/style/Button'
 export {Border} from './src/js/style/Border'
 
+export {Theme} from './src/js/Theme'

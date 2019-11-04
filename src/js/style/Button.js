@@ -7,6 +7,13 @@ export class Button extends Style {
   /**
    * @return {(StyleRules,string)}
    */
+  get button() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {(StyleRules,string)}
+   */
   get white() {
     throw new Error('should be override')
   }
