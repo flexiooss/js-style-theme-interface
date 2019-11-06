@@ -1,4 +1,5 @@
 import {Style} from '@flexio-oss/stylist'
+import {Layout} from './Layout'
 
 /**
  * @interface
@@ -53,3 +54,10 @@ export class FontSize extends Style {
     throw new Error('should be override')
   }
 }
+
+/**
+ *
+ * @param instance
+ * @return {boolean}
+ */
+export const isFontSize = (instance) => instance instanceof FontSize

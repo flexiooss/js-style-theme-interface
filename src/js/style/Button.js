@@ -1,4 +1,5 @@
 import {Style} from '@flexio-oss/stylist'
+import {Layout} from './Layout'
 
 /**
  * @interface
@@ -89,3 +90,11 @@ export class Button extends Style {
   }
 
 }
+
+
+/**
+ *
+ * @param instance
+ * @return {boolean}
+ */
+export const isButton = (instance) => instance instanceof Button

@@ -1,4 +1,5 @@
 import {Style} from '@flexio-oss/stylist'
+import {Layout} from './Layout'
 
 /**
  * @interface
@@ -124,3 +125,11 @@ export class Border extends Style {
   }
 
 }
+
+
+/**
+ *
+ * @param instance
+ * @return {boolean}
+ */
+export const isBorder = (instance) => instance instanceof Border

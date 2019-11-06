@@ -48,3 +48,10 @@ export class Layout extends Style {
   }
 
 }
+
+/**
+ *
+ * @param instance
+ * @return {boolean}
+ */
+export const isLayout = (instance) => instance instanceof Layout

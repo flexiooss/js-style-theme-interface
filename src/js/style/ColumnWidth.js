@@ -18,6 +18,7 @@ export class ColumnWidth extends Style {
   get w2() {
     throw new Error('should be override')
   }
+
   /**
    * @return {(StyleRules|string)}
    */
@@ -31,6 +32,7 @@ export class ColumnWidth extends Style {
   get w4() {
     throw new Error('should be override')
   }
+
   /**
    * @return {(StyleRules|string)}
    */
@@ -44,6 +46,7 @@ export class ColumnWidth extends Style {
   get w6() {
     throw new Error('should be override')
   }
+
   /**
    * @return {(StyleRules|string)}
    */
@@ -57,6 +60,7 @@ export class ColumnWidth extends Style {
   get w8() {
     throw new Error('should be override')
   }
+
   /**
    * @return {(StyleRules|string)}
    */
@@ -70,6 +74,7 @@ export class ColumnWidth extends Style {
   get w10() {
     throw new Error('should be override')
   }
+
   /**
    * @return {(StyleRules|string)}
    */
@@ -84,5 +89,11 @@ export class ColumnWidth extends Style {
     throw new Error('should be override')
   }
 
-
 }
+
+/**
+ *
+ * @param instance
+ * @return {boolean}
+ */
+export const isColumnWidth = (instance) => instance instanceof ColumnWidth

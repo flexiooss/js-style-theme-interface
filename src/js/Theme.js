@@ -1,3 +1,5 @@
+import {Layout} from './style/Layout'
+
 export class Theme {
 
   /**
@@ -49,3 +51,10 @@ export class Theme {
   }
 
 }
+
+/**
+ *
+ * @param instance
+ * @return {boolean}
+ */
+export const isTheme = (instance) => instance instanceof Theme

@@ -1,4 +1,5 @@
 import {Style} from '@flexio-oss/stylist'
+import {Layout} from './Layout'
 
 /**
  * @interface
@@ -173,3 +174,10 @@ export class Form extends Style {
   }
 
 }
+
+/**
+ *
+ * @param instance
+ * @return {boolean}
+ */
+export const isForm = (instance) => instance instanceof Form

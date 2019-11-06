@@ -1,4 +1,5 @@
 import {Style} from '@flexio-oss/stylist'
+import {Layout} from './Layout'
 
 /**
  * @interface
@@ -154,3 +155,10 @@ export class Color extends Style {
     throw new Error('should be override')
   }
 }
+
+/**
+ *
+ * @param instance
+ * @return {boolean}
+ */
+export const isColor = (instance) => instance instanceof Color
