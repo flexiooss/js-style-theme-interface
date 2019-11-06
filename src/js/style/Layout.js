@@ -21,7 +21,7 @@ export class Layout extends Style {
   /**
    * @return {(StyleRules|string)}
    */
-  get col() {
+  get column() {
     throw new Error('should be override')
 
   }
