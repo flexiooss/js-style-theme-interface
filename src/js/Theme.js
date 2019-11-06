@@ -48,24 +48,4 @@ export class Theme {
     throw new Error('should be override')
   }
 
-  /**
-   * @return {ColumnWidth}
-   */
-  mobileWidth() {
-    throw new Error('should be override')
-  }
-
-  /**
-   * @return {ColumnWidth}
-   */
-  tabletWidth() {
-    throw new Error('should be override')
-  }
-
-  /**
-   * @return {ColumnWidth}
-   */
-  desktopWidth() {
-    throw new Error('should be override')
-  }
 }
