@@ -1,51 +1,29 @@
-export class Theme {
+import {Style} from '@flexio-oss/stylist'
 
+/**
+ * @interface
+ */
+export class Layout extends Style {
   /**
-   *
-   * @return {Color}
+   * @return {(StyleRules|string)}
    */
-  color() {
+  get container() {
     throw new Error('should be override')
   }
 
   /**
-   *
-   * @return {FontSize}
+   * @return {(StyleRules|string)}
    */
-  fontSize() {
+  get row() {
     throw new Error('should be override')
   }
 
   /**
-   *
-   * @return {Form}
+   * @return {(StyleRules|string)}
    */
-  form() {
+  get col() {
     throw new Error('should be override')
-  }
 
-  /**
-   *
-   * @return {Button}
-   */
-  button() {
-    throw new Error('should be override')
-  }
-
-  /**
-   *
-   * @return {Border}
-   */
-  border() {
-    throw new Error('should be override')
-  }
-
-  /**
-   *
-   * @return {Layout}
-   */
-  layout() {
-    throw new Error('should be override')
   }
 
   /**
@@ -68,4 +46,5 @@ export class Theme {
   desktopWidth() {
     throw new Error('should be override')
   }
+
 }

@@ -12,5 +12,8 @@ export {FontSize} from './src/js/style/FontSize'
 export {Form} from './src/js/style/Form'
 export {Button} from './src/js/style/Button'
 export {Border} from './src/js/style/Border'
+export {Layout} from './src/js/style/Layout'
+export {Layout} from './src/js/style/Layout'
+export {ColumnWidth} from './src/js/style/ColumnWidth'
 
 export {Theme} from './src/js/Theme'

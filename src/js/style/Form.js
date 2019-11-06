@@ -45,6 +45,7 @@ export class Form extends Style {
   get labelColumn() {
     throw new Error('should be override')
   }
+
   /**
    * @return {(StyleRules|string)}
    */
@@ -87,7 +88,6 @@ export class Form extends Style {
     throw new Error('should be override')
   }
 
-
   /**
    * @return {(StyleRules|string)}
    */
@@ -102,7 +102,7 @@ export class Form extends Style {
     throw new Error('should be override')
   }
 
- /**
+  /**
    * @return {(StyleRules|string)}
    */
   get select() {
@@ -113,6 +113,34 @@ export class Form extends Style {
    * @return {(StyleRules|string)}
    */
   get button() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {(StyleRules|string)}
+   */
+  get checkboxContainer() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {(StyleRules|string)}
+   */
+  get checkBoxLabel() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {(StyleRules|string)}
+   */
+  get checkbox() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {(StyleRules|string)}
+   */
+  get checkboxChecked() {
     throw new Error('should be override')
   }
 

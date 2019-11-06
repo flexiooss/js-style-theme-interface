@@ -4,6 +4,8 @@ import {Color} from './style/Color'
 import {FontSize} from './style/FontSize'
 import {Theme} from './Theme'
 import {Button} from './style/Button'
+import {Layout} from './style/Layout'
+import {ColumnWidth} from './style/ColumnWidth'
 
 export class TypeCheck {
   /**
@@ -49,6 +51,24 @@ export class TypeCheck {
    */
   static isForm(instance) {
     return instance instanceof Form
+  }
+
+  /**
+   *
+   * @param {*} instance
+   * @return {boolean}
+   */
+  static isLayout(instance) {
+    return instance instanceof Layout
+  }
+
+  /**
+   *
+   * @param {*} instance
+   * @return {boolean}
+   */
+  static isColumnWidth(instance) {
+    return instance instanceof ColumnWidth
   }
 
   /**
