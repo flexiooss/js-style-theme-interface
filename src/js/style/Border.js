@@ -5,6 +5,41 @@ import {Layout} from './Layout'
  * @interface
  */
 export class Border extends Style {
+
+  /**
+   * @return {(StyleRules|string)}
+   */
+  get left() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {(StyleRules|string)}
+   */
+  get top() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {(StyleRules|string)}
+   */
+  get bottom() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {(StyleRules|string)}
+   */
+  get right() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {(StyleRules|string)}
+   */
+  get border() {
+    throw new Error('should be override')
+  }
   /**
    * @return {(StyleRules|string)}
    */
