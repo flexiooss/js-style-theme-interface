@@ -15,7 +15,7 @@ export class Border extends Style {
   /**
    * @return {(StyleRules|string)}
    */
-  get ligth() {
+  get light() {
     throw new Error('should be override')
   }
 
@@ -85,42 +85,42 @@ export class Border extends Style {
   /**
    * @return {(StyleRules|string)}
    */
-  get thin() {
+  get thinWidth() {
     throw new Error('should be override')
   }
 
   /**
    * @return {(StyleRules|string)}
    */
-  get light() {
+  get lightWidth() {
     throw new Error('should be override')
   }
 
   /**
    * @return {(StyleRules|string)}
    */
-  get regular() {
+  get regularWidth() {
     throw new Error('should be override')
   }
 
   /**
    * @return {(StyleRules|string)}
    */
-  get medium() {
+  get mediumWidth() {
     throw new Error('should be override')
   }
 
   /**
    * @return {(StyleRules|string)}
    */
-  get bold() {
+  get boldWidth() {
     throw new Error('should be override')
   }
 
   /**
    * @return {(StyleRules|string)}
    */
-  get big() {
+  get bigWidth() {
     throw new Error('should be override')
   }
 
