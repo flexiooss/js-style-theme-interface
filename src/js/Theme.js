@@ -1,6 +1,14 @@
 import {Layout} from './style/Layout'
 
 export class Theme {
+  /**
+   *
+   * @param {Stylist} stylist
+   * @return {Theme}
+   */
+  register(stylist) {
+    throw new Error('should be override')
+  }
 
   /**
    *
