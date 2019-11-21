@@ -33,4 +33,4 @@ export class LayersStyle extends Style {
  * @param instance
  * @return {boolean}
  */
-export const isLayer = (instance) => instance instanceof LayersStyle
+export const isLayers = (instance) => instance instanceof LayersStyle

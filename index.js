@@ -11,6 +11,7 @@ export {FormStyle, isForm} from './src/js/style/FormStyle'
 export {ButtonStyle, isButton} from './src/js/style/ButtonStyle'
 export {BorderStyle, isBorder} from './src/js/style/BorderStyle'
 export {LayoutStyle, isLayout} from './src/js/style/LayoutStyle'
+export {LayersStyle, isLayers} from './src/js/style/LayersStyle'
 export {ColumnWidthStyle, isColumnWidth} from './src/js/style/ColumnWidthStyle'
 
 export {ThemeStyle, isTheme} from './src/js/ThemeStyle'
