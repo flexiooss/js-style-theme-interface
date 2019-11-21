@@ -27,21 +27,21 @@ export class LayoutStyle extends Style {
   }
 
   /**
-   * @return {ColumnWidth}
+   * @return {ColumnWidthStyle}
    */
   mobileWidth() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {ColumnWidth}
+   * @return {ColumnWidthStyle}
    */
   tabletWidth() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {ColumnWidth}
+   * @return {ColumnWidthStyle}
    */
   desktopWidth() {
     throw new Error('should be override')
