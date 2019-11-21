@@ -3,18 +3,47 @@ import {Style} from '@flexio-oss/stylist'
 /**
  * @interface
  */
-export class Color extends Style {
+export class BorderStyle extends Style {
+
   /**
    * @return {string}
    */
-  white() {
+  left() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  whiteBg() {
+  top() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  bottom() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  right() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  border() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  white() {
     throw new Error('should be override')
   }
 
@@ -28,21 +57,7 @@ export class Color extends Style {
   /**
    * @return {string}
    */
-  lightBg() {
-    throw new Error('should be override')
-  }
-
-  /**
-   * @return {string}
-   */
   dark() {
-    throw new Error('should be override')
-  }
-
-  /**
-   * @return {string}
-   */
-  darkBg() {
     throw new Error('should be override')
   }
 
@@ -56,21 +71,7 @@ export class Color extends Style {
   /**
    * @return {string}
    */
-  mutedBg() {
-    throw new Error('should be override')
-  }
-
-  /**
-   * @return {string}
-   */
   primary() {
-    throw new Error('should be override')
-  }
-
-  /**
-   * @return {string}
-   */
-  primaryBg() {
     throw new Error('should be override')
   }
 
@@ -84,7 +85,7 @@ export class Color extends Style {
   /**
    * @return {string}
    */
-  secondaryBg() {
+  info() {
     throw new Error('should be override')
   }
 
@@ -98,35 +99,7 @@ export class Color extends Style {
   /**
    * @return {string}
    */
-  successBg() {
-    throw new Error('should be override')
-  }
-
-  /**
-   * @return {string}
-   */
-  info() {
-    throw new Error('should be override')
-  }
-
-  /**
-   * @return {string}
-   */
-  infoBg() {
-    throw new Error('should be override')
-  }
-
-  /**
-   * @return {string}
-   */
   focus() {
-    throw new Error('should be override')
-  }
-
-  /**
-   * @return {string}
-   */
-  focusBg() {
     throw new Error('should be override')
   }
 
@@ -140,13 +113,6 @@ export class Color extends Style {
   /**
    * @return {string}
    */
-  warningBg() {
-    throw new Error('should be override')
-  }
-
-  /**
-   * @return {string}
-   */
   danger() {
     throw new Error('should be override')
   }
@@ -154,9 +120,45 @@ export class Color extends Style {
   /**
    * @return {string}
    */
-  dangerBg() {
+  thinWidth() {
     throw new Error('should be override')
   }
+
+  /**
+   * @return {string}
+   */
+  lightWidth() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  regularWidth() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  mediumWidth() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  boldWidth() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  bigWidth() {
+    throw new Error('should be override')
+  }
+
 }
 
 /**
@@ -164,4 +166,4 @@ export class Color extends Style {
  * @param instance
  * @return {boolean}
  */
-export const isColor = (instance) => instance instanceof Color
+export const isBorder = (instance) => instance instanceof BorderStyle

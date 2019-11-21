@@ -1,63 +1,57 @@
-import {Layout} from './style/Layout'
+import {Style} from '@flexio-oss/stylist'
 
-export class Theme {
+/**
+ * @interface
+ */
+export class FontSizeStyle extends Style {
   /**
-   *
-   * @param {Stylist} stylist
-   * @return {Theme}
+   * @return {string}
    */
-  register(stylist) {
+  h1() {
     throw new Error('should be override')
   }
 
   /**
-   *
-   * @return {Color}
+   * @return {string}
    */
-  color() {
+  h2() {
     throw new Error('should be override')
   }
 
   /**
-   *
-   * @return {FontSize}
+   * @return {string}
    */
-  fontSize() {
+  h3() {
     throw new Error('should be override')
   }
 
   /**
-   *
-   * @return {Form}
+   * @return {string}
    */
-  form() {
+  h4() {
     throw new Error('should be override')
   }
 
   /**
-   *
-   * @return {Button}
+   * @return {string}
    */
-  button() {
+  h5() {
     throw new Error('should be override')
   }
 
   /**
-   *
-   * @return {Border}
+   * @return {string}
    */
-  border() {
+  h6() {
     throw new Error('should be override')
   }
 
   /**
-   *
-   * @return {Layout}
+   * @return {string}
    */
-  layout() {
+  small() {
     throw new Error('should be override')
   }
-
 }
 
 /**
@@ -65,4 +59,4 @@ export class Theme {
  * @param instance
  * @return {boolean}
  */
-export const isTheme = (instance) => instance instanceof Theme
+export const isFontSize = (instance) => instance instanceof FontSizeStyle

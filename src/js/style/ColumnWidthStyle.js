@@ -3,7 +3,7 @@ import {Style} from '@flexio-oss/stylist'
 /**
  * @interface
  */
-export class ColumnWidth extends Style {
+export class ColumnWidthStyle extends Style {
 
   /**
    * @return {string}
@@ -96,4 +96,4 @@ export class ColumnWidth extends Style {
  * @param instance
  * @return {boolean}
  */
-export const isColumnWidth = (instance) => instance instanceof ColumnWidth
+export const isColumnWidth = (instance) => instance instanceof ColumnWidthStyle

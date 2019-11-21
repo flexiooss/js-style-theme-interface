@@ -3,7 +3,7 @@ import {Style} from '@flexio-oss/stylist'
 /**
  * @interface
  */
-export class Form extends Style {
+export class FormStyle extends Style {
   /**
    * @return {string}
    */
@@ -179,4 +179,4 @@ export class Form extends Style {
  * @param instance
  * @return {boolean}
  */
-export const isForm = (instance) => instance instanceof Form
+export const isForm = (instance) => instance instanceof FormStyle

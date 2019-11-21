@@ -3,55 +3,91 @@ import {Style} from '@flexio-oss/stylist'
 /**
  * @interface
  */
-export class FontSize extends Style {
+export class ButtonStyle extends Style {
   /**
    * @return {string}
    */
-  h1() {
+  button() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  h2() {
+  white() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  h3() {
+  light() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  h4() {
+  dark() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  h5() {
+  muted() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  h6() {
+  primary() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  small() {
+  secondary() {
     throw new Error('should be override')
   }
+
+  /**
+   * @return {string}
+   */
+  info() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  success() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  focus() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  warning() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  danger() {
+    throw new Error('should be override')
+  }
+
 }
 
 /**
@@ -59,4 +95,4 @@ export class FontSize extends Style {
  * @param instance
  * @return {boolean}
  */
-export const isFontSize = (instance) => instance instanceof FontSize
+export const isButton = (instance) => instance instanceof ButtonStyle

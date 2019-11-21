@@ -3,7 +3,7 @@ import {Style} from '@flexio-oss/stylist'
 /**
  * @interface
  */
-export class Layout extends Style {
+export class LayoutStyle extends Style {
   /**
    * @return {string}
    */
@@ -54,4 +54,4 @@ export class Layout extends Style {
  * @param instance
  * @return {boolean}
  */
-export const isLayout = (instance) => instance instanceof Layout
+export const isLayout = (instance) => instance instanceof LayoutStyle
