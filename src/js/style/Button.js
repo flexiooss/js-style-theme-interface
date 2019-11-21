@@ -1,96 +1,94 @@
 import {Style} from '@flexio-oss/stylist'
-import {Layout} from './Layout'
 
 /**
  * @interface
  */
 export class Button extends Style {
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get button() {
+  button() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get white() {
+  white() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get ligth() {
+  light() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get dark() {
+  dark() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get muted() {
+  muted() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get primary() {
+  primary() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get secondary() {
+  secondary() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get info() {
+  info() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get success() {
+  success() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get focus() {
+  focus() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get warning() {
+  warning() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get danger() {
+  danger() {
     throw new Error('should be override')
   }
 
 }
-
 
 /**
  *

@@ -5,23 +5,23 @@ import {Style} from '@flexio-oss/stylist'
  */
 export class Layout extends Style {
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get container() {
+   container() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get row() {
+   row() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get column() {
+   column() {
     throw new Error('should be override')
 
   }

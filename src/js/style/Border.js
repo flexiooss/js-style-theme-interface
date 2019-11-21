@@ -1,5 +1,4 @@
 import {Style} from '@flexio-oss/stylist'
-import {Layout} from './Layout'
 
 /**
  * @interface
@@ -7,160 +6,160 @@ import {Layout} from './Layout'
 export class Border extends Style {
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get left() {
+  left() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get top() {
+  top() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get bottom() {
+  bottom() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get right() {
+  right() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get border() {
-    throw new Error('should be override')
-  }
-  /**
-   * @return {(StyleRules|string)}
-   */
-  get white() {
+  border() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get light() {
+  white() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get dark() {
+  light() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get muted() {
+  dark() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get primary() {
+  muted() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get secondary() {
+  primary() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get info() {
+  secondary() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get success() {
+  info() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get focus() {
+  success() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get warning() {
+  focus() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get danger() {
+  warning() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get thinWidth() {
+  danger() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get lightWidth() {
+  thinWidth() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get regularWidth() {
+  lightWidth() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get mediumWidth() {
+  regularWidth() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get boldWidth() {
+  mediumWidth() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get bigWidth() {
+  boldWidth() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  bigWidth() {
     throw new Error('should be override')
   }
 
 }
-
 
 /**
  *

@@ -6,86 +6,86 @@ import {Style} from '@flexio-oss/stylist'
 export class ColumnWidth extends Style {
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get w1() {
+  w1() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get w2() {
+  w2() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get w3() {
+  w3() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get w4() {
+  w4() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get w5() {
+  w5() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get w6() {
+  w6() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get w7() {
+  w7() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get w8() {
+  w8() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get w9() {
+  w9() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get w10() {
+  w10() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get w11() {
+  w11() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get w12() {
+  w12() {
     throw new Error('should be override')
   }
 

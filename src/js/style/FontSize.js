@@ -1,56 +1,55 @@
 import {Style} from '@flexio-oss/stylist'
-import {Layout} from './Layout'
 
 /**
  * @interface
  */
 export class FontSize extends Style {
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get h1() {
+  h1() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get h2() {
+  h2() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get h3() {
+  h3() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get h4() {
+  h4() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get h5() {
+  h5() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get h6() {
+  h6() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get small() {
+  small() {
     throw new Error('should be override')
   }
 }

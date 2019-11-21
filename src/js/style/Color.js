@@ -1,157 +1,160 @@
 import {Style} from '@flexio-oss/stylist'
-import {Layout} from './Layout'
 
 /**
  * @interface
  */
 export class Color extends Style {
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get white() {
+  white() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get whiteBg() {
-    throw new Error('should be override')
-  }
-  /**
-   * @return {(StyleRules|string)}
-   */
-  get light() {
+  whiteBg() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get lightBg() {
-    throw new Error('should be override')
-  }
-  /**
-   * @return {(StyleRules|string)}
-   */
-  get dark() {
+  light() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get darkBg() {
-    throw new Error('should be override')
-  }
-  /**
-   * @return {(StyleRules|string)}
-   */
-  get muted() {
+  lightBg() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get mutedBg() {
-    throw new Error('should be override')
-  }
-  /**
-   * @return {(StyleRules|string)}
-   */
-  get primary() {
+  dark() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get primaryBg() {
+  darkBg() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get secondary() {
+  muted() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get secondaryBg() {
+  mutedBg() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get success() {
+  primary() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get successBg() {
+  primaryBg() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get info() {
+  secondary() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get infoBg() {
+  secondaryBg() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get focus() {
+  success() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get focusBg() {
+  successBg() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get warning() {
+  info() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get warningBg() {
+  infoBg() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get danger() {
+  focus() {
     throw new Error('should be override')
   }
 
   /**
-   * @return {(StyleRules|string)}
+   * @return {string}
    */
-  get dangerBg() {
+  focusBg() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  warning() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  warningBg() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  danger() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  dangerBg() {
     throw new Error('should be override')
   }
 }
