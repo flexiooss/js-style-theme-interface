@@ -1,5 +1,8 @@
 import {LayoutStyle} from './style/LayoutStyle'
 
+/**
+ * @interface
+ */
 export class ThemeStyle {
   /**
    *
