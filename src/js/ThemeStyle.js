@@ -1,5 +1,6 @@
 import {LayoutStyle} from './style/LayoutStyle'
 
+
 /**
  * @interface
  */
@@ -69,7 +70,16 @@ export class ThemeStyle {
     throw new Error('should be override')
   }
 
+  /**
+   *
+   * @return {ElementsStyle}
+   */
+  elements() {
+    throw new Error('should be override')
+  }
+
 }
+
 
 /**
  *
