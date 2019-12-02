@@ -1,5 +1,6 @@
 import {Style} from '@flexio-oss/stylist'
 
+
 /**
  * @interface
  */
@@ -7,46 +8,107 @@ export class LayoutStyle extends Style {
   /**
    * @return {string}
    */
-   container() {
+  container() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-   row() {
+  row() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-   rowJustifyLeft() {
+  rowJustifyLeft() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-   rowJustifyRight() {
+  rowJustifyRight() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-   rowJustifyCenter() {
+  rowJustifyCenter() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-   column() {
+  rowAlignTop() {
     throw new Error('should be override')
-
   }
 
+  /**
+   * @return {string}
+   */
+  rowAlignBottom() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  rowAlignCenter() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  column() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  columnAlignTop() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  columnAlignBottom() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  columnAlignCenter() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  columnJustifyLeft() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  columnJustifyRight() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  columnJustifyCenter() {
+    throw new Error('should be override')
+  }
   /**
    * @return {ColumnWidthStyle}
    */
@@ -69,6 +131,7 @@ export class LayoutStyle extends Style {
   }
 
 }
+
 
 /**
  *
