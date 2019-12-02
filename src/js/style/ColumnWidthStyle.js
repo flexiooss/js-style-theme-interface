@@ -1,5 +1,6 @@
 import {Style} from '@flexio-oss/stylist'
 
+
 /**
  * @interface
  */
@@ -89,7 +90,92 @@ export class ColumnWidthStyle extends Style {
     throw new Error('should be override')
   }
 
+  /**
+   * @return {string}
+   */
+  w13() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  w14() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  w15() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  w16() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  w17() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  w18() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  w19() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  w20() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  w21() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  w22() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  w23() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  w24() {
+    throw new Error('should be override')
+  }
+
 }
+
 
 /**
  *

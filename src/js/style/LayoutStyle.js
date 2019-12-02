@@ -21,6 +21,27 @@ export class LayoutStyle extends Style {
   /**
    * @return {string}
    */
+   rowJustifyLeft() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+   rowJustifyRight() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+   rowJustifyCenter() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
    column() {
     throw new Error('should be override')
 
