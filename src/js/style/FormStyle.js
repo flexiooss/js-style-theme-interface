@@ -112,6 +112,20 @@ export class FormStyle extends Style {
   /**
    * @return {string}
    */
+  selectSingle() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  selectMultiple() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
   button() {
     throw new Error('should be override')
   }
