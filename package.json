@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@flexio-corp/js-common-parent": "0.0.0",
-    "@flexio-oss/stylist": "0.0.0"
+    "@flexio-oss/stylist": "0.1.0-dev"
   },
   "hotballoon-shed": {
     "build": {
