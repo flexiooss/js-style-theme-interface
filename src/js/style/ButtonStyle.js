@@ -87,6 +87,18 @@ export class ButtonStyle extends Style {
   danger() {
     throw new Error('should be override')
   }
+  /**
+   * @return {string}
+   */
+  remove() {
+    throw new Error('should be override')
+  }
+  /**
+   * @return {string}
+   */
+  add() {
+    throw new Error('should be override')
+  }
 
 }
 
