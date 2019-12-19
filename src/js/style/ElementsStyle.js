@@ -13,6 +13,14 @@ export class ElementsStyle extends Style {
     throw new Error('should be override')
   }
 
+  /**
+   * @return {string}
+   */
+  tag() {
+    throw new Error('should be override')
+  }
+
+
 }
 
 
