@@ -64,4 +64,4 @@ export class FontStyle extends Style {
  * @param instance
  * @return {boolean}
  */
-export const isFontSize = (instance) => instance instanceof FontSizeStyle
+export const isFontStyle = (instance) => instance instanceof FontStyle
