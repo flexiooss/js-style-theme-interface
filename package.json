@@ -12,6 +12,9 @@
     "@flexio-corp/js-common-parent": "0.1.0-dev",
     "@flexio-oss/stylist": "0.1.0-dev"
   },
+  "peerDependencies": {
+    "@flexio-corp/iconist": ">0.0.0"
+  },
   "hotballoon-shed": {
     "build": {
       "builder": "webpack4"

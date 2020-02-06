@@ -78,6 +78,13 @@ export class ThemeStyle {
     throw new Error('should be override')
   }
 
+  /**
+   * @return {Iconist}
+   */
+  icons(){
+    throw new Error('should be override')
+  }
+
 }
 
 
