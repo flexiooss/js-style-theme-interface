@@ -7,6 +7,7 @@ export {styleSheetMediaPrint} from './src/js/styleSheetMedia/print'
 
 export {ColorStyle, isColor} from './src/js/style/ColorStyle'
 export {FontSizeStyle, isFontSize} from './src/js/style/FontSizeStyle'
+export {FontStyle, isFontStyle} from './src/js/style/FontStyle'
 export {FormStyle, isForm} from './src/js/style/FormStyle'
 export {ButtonStyle, isButton} from './src/js/style/ButtonStyle'
 export {ElementsStyle, isElementStyle} from './src/js/style/ElementsStyle'

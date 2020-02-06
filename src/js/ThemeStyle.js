@@ -24,6 +24,14 @@ export class ThemeStyle {
 
   /**
    *
+   * @return {FontStyle}
+   */
+  fontStyle() {
+    throw new Error('should be override')
+  }
+
+  /**
+   *
    * @return {FontSizeStyle}
    */
   fontSize() {
