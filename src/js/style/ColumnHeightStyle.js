@@ -9,70 +9,70 @@ export class ColumnHeightStyle extends Style {
   /**
    * @return {string}
    */
-  w10() {
+  h10() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  w20() {
+  h20() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  w30() {
+  h30() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  w40() {
+  h40() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  w50() {
+  h50() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  w60() {
+  h60() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  w70() {
+  h70() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  w80() {
+  h80() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  w90() {
+  h90() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  w100() {
+  h100() {
     throw new Error('should be override')
   }
 
