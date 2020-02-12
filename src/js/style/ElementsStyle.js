@@ -9,17 +9,9 @@ export class ElementsStyle extends Style {
   /**
    * @return {string}
    */
-  close() {
-    throw new Error('should be override')
-  }
-
-  /**
-   * @return {string}
-   */
   tag() {
     throw new Error('should be override')
   }
-
 
 }
 

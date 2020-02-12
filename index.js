@@ -15,5 +15,6 @@ export {BorderStyle, isBorder} from './src/js/style/BorderStyle'
 export {LayoutStyle, isLayout} from './src/js/style/LayoutStyle'
 export {LayersStyle, isLayers} from './src/js/style/LayersStyle'
 export {ColumnWidthStyle, isColumnWidth} from './src/js/style/ColumnWidthStyle'
+export {ColumnHeightStyle, isColumnHeight} from './src/js/style/ColumnHeightStyle'
 
 export {ThemeStyle, isTheme} from './src/js/ThemeStyle'

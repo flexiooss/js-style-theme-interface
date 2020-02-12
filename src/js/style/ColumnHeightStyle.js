@@ -4,63 +4,78 @@ import {Style} from '@flexio-oss/stylist'
 /**
  * @interface
  */
-export class FontStyle extends Style {
+export class ColumnHeightStyle extends Style {
 
   /**
    * @return {string}
    */
-  light() {
+  w10() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  regular() {
+  w20() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  semiBold() {
+  w30() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  bold() {
+  w40() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  italic() {
+  w50() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  uppercase() {
+  w60() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  lowercase() {
+  w70() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  capitalize() {
+  w80() {
     throw new Error('should be override')
   }
+
+  /**
+   * @return {string}
+   */
+  w90() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
+  w100() {
+    throw new Error('should be override')
+  }
+
 
 }
 
@@ -70,4 +85,4 @@ export class FontStyle extends Style {
  * @param instance
  * @return {boolean}
  */
-export const isFontStyle = (instance) => instance instanceof FontStyle
+export const isColumnHeight= (instance) => instance instanceof ColumnHeightStyle

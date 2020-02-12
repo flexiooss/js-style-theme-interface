@@ -109,6 +109,7 @@ export class LayoutStyle extends Style {
   columnJustifyCenter() {
     throw new Error('should be override')
   }
+
   /**
    * @return {ColumnWidthStyle}
    */
@@ -127,6 +128,13 @@ export class LayoutStyle extends Style {
    * @return {ColumnWidthStyle}
    */
   desktopWidth() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {ColumnHeightStyle}
+   */
+  columnHeight() {
     throw new Error('should be override')
   }
 
