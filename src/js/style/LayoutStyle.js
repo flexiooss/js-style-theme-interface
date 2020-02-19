@@ -11,6 +11,25 @@ export class LayoutStyle extends Style {
   container() {
     throw new Error('should be override')
   }
+  /**
+   * @return {string}
+   */
+  containerSmall() {
+    throw new Error('should be override')
+  }
+  /**
+   * @return {string}
+   */
+  containerMedium() {
+    throw new Error('should be override')
+  }
+  /**
+   * @return {string}
+   */
+  containerBig() {
+    throw new Error('should be override')
+  }
+
 
   /**
    * @return {string}
