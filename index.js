@@ -16,5 +16,6 @@ export {LayoutStyle, isLayout} from './src/js/style/LayoutStyle'
 export {LayersStyle, isLayers} from './src/js/style/LayersStyle'
 export {ColumnWidthStyle, isColumnWidth} from './src/js/style/ColumnWidthStyle'
 export {ColumnHeightStyle, isColumnHeight} from './src/js/style/ColumnHeightStyle'
+export {ColorPalette, isColorPalette} from './src/js/ColorPalette'
 
 export {ThemeStyle, isTheme} from './src/js/ThemeStyle'
