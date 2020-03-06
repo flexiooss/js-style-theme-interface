@@ -159,6 +159,12 @@ export class BorderStyle extends Style {
     throw new Error('should be override')
   }
 
+  /**
+   * @return {string}
+   */
+  dashed() {
+    throw new Error('should be override')
+  }
 }
 
 /**
