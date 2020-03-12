@@ -11,6 +11,25 @@ export class LayoutStyle extends Style {
   container() {
     throw new Error('should be override')
   }
+  /**
+   * @return {string}
+   */
+  containerSmall() {
+    throw new Error('should be override')
+  }
+  /**
+   * @return {string}
+   */
+  containerMedium() {
+    throw new Error('should be override')
+  }
+  /**
+   * @return {string}
+   */
+  containerBig() {
+    throw new Error('should be override')
+  }
+
 
   /**
    * @return {string}
@@ -109,6 +128,7 @@ export class LayoutStyle extends Style {
   columnJustifyCenter() {
     throw new Error('should be override')
   }
+
   /**
    * @return {ColumnWidthStyle}
    */
@@ -127,6 +147,13 @@ export class LayoutStyle extends Style {
    * @return {ColumnWidthStyle}
    */
   desktopWidth() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {ColumnHeightStyle}
+   */
+  columnHeight() {
     throw new Error('should be override')
   }
 

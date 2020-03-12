@@ -24,6 +24,14 @@ export class ThemeStyle {
 
   /**
    *
+   * @return {FontStyle}
+   */
+  fontStyle() {
+    throw new Error('should be override')
+  }
+
+  /**
+   *
    * @return {FontSizeStyle}
    */
   fontSize() {
@@ -75,6 +83,21 @@ export class ThemeStyle {
    * @return {ElementsStyle}
    */
   elements() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {Iconist}
+   */
+  icons() {
+    throw new Error('should be override')
+  }
+
+  /**
+   *
+   * @return {?Stylist}
+   */
+  stylist() {
     throw new Error('should be override')
   }
 

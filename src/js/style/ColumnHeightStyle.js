@@ -1,110 +1,88 @@
 import {Style} from '@flexio-oss/stylist'
 
+
 /**
  * @interface
  */
-export class ButtonStyle extends Style {
+export class ColumnHeightStyle extends Style {
+
   /**
    * @return {string}
    */
-  button() {
+  h10() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  white() {
+  h20() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  light() {
+  h30() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  dark() {
+  h40() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  muted() {
+  h50() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  primary() {
+  h60() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  secondary() {
+  h70() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  info() {
+  h80() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  success() {
+  h90() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  focus() {
+  h100() {
     throw new Error('should be override')
   }
 
-  /**
-   * @return {string}
-   */
-  warning() {
-    throw new Error('should be override')
-  }
-
-  /**
-   * @return {string}
-   */
-  danger() {
-    throw new Error('should be override')
-  }
-  /**
-   * @return {string}
-   */
-  remove() {
-    throw new Error('should be override')
-  }
-  /**
-   * @return {string}
-   */
-  add() {
-    throw new Error('should be override')
-  }
 
 }
+
 
 /**
  *
  * @param instance
  * @return {boolean}
  */
-export const isButton = (instance) => instance instanceof ButtonStyle
+export const isColumnHeight= (instance) => instance instanceof ColumnHeightStyle

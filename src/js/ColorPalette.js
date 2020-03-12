@@ -1,16 +1,7 @@
-import {Style} from '@flexio-oss/stylist'
-
 /**
  * @interface
  */
-export class ButtonStyle extends Style {
-  /**
-   * @return {string}
-   */
-  button() {
-    throw new Error('should be override')
-  }
-
+export class ColorPalette {
   /**
    * @return {string}
    */
@@ -56,14 +47,14 @@ export class ButtonStyle extends Style {
   /**
    * @return {string}
    */
-  info() {
+  success() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  success() {
+  info() {
     throw new Error('should be override')
   }
 
@@ -87,19 +78,6 @@ export class ButtonStyle extends Style {
   danger() {
     throw new Error('should be override')
   }
-  /**
-   * @return {string}
-   */
-  remove() {
-    throw new Error('should be override')
-  }
-  /**
-   * @return {string}
-   */
-  add() {
-    throw new Error('should be override')
-  }
-
 }
 
 /**
@@ -107,4 +85,4 @@ export class ButtonStyle extends Style {
  * @param instance
  * @return {boolean}
  */
-export const isButton = (instance) => instance instanceof ButtonStyle
+export const isColorPalette = (instance) => instance instanceof ColorPalette

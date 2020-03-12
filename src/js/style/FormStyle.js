@@ -63,6 +63,13 @@ export class FormStyle extends Style {
   /**
    * @return {string}
    */
+  placeholder() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
   inputColumn() {
     throw new Error('should be override')
   }

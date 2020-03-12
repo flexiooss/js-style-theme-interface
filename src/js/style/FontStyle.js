@@ -1,22 +1,10 @@
 import {Style} from '@flexio-oss/stylist'
 
+
 /**
  * @interface
  */
-export class ButtonStyle extends Style {
-  /**
-   * @return {string}
-   */
-  button() {
-    throw new Error('should be override')
-  }
-
-  /**
-   * @return {string}
-   */
-  white() {
-    throw new Error('should be override')
-  }
+export class FontStyle extends Style {
 
   /**
    * @return {string}
@@ -28,83 +16,58 @@ export class ButtonStyle extends Style {
   /**
    * @return {string}
    */
-  dark() {
+  regular() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  muted() {
+  semiBold() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  primary() {
+  bold() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  secondary() {
+  italic() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  info() {
+  uppercase() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  success() {
+  lowercase() {
     throw new Error('should be override')
   }
 
   /**
    * @return {string}
    */
-  focus() {
-    throw new Error('should be override')
-  }
-
-  /**
-   * @return {string}
-   */
-  warning() {
-    throw new Error('should be override')
-  }
-
-  /**
-   * @return {string}
-   */
-  danger() {
-    throw new Error('should be override')
-  }
-  /**
-   * @return {string}
-   */
-  remove() {
-    throw new Error('should be override')
-  }
-  /**
-   * @return {string}
-   */
-  add() {
+  capitalize() {
     throw new Error('should be override')
   }
 
 }
+
 
 /**
  *
  * @param instance
  * @return {boolean}
  */
-export const isButton = (instance) => instance instanceof ButtonStyle
+export const isFontStyle = (instance) => instance instanceof FontStyle
