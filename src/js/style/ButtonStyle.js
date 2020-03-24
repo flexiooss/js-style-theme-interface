@@ -14,6 +14,13 @@ export class ButtonStyle extends Style {
   /**
    * @return {string}
    */
+  buttonIcon() {
+    throw new Error('should be override')
+  }
+
+  /**
+   * @return {string}
+   */
   white() {
     throw new Error('should be override')
   }
